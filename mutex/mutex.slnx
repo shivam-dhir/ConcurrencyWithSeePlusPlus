@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="mutex.vcxproj" Id="b1d9f024-debc-4542-9c6f-f8dedab178f2" />
+</Solution>
