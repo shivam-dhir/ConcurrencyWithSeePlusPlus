@@ -1,0 +1,7 @@
+﻿  thread.cpp
+  Generating code
+  3 of 64 functions ( 4.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  thread.vcxproj -> D:\apps\VisualStudio_Workspace\Concurrency\thread\x64\Release\thread.exe
