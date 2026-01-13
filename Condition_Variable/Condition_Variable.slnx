@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Atomic.vcxproj" Id="bcee410e-ee1e-466e-9970-53d64652202c" />
+  <Project Path="Condition_Variable.vcxproj" />
 </Solution>
