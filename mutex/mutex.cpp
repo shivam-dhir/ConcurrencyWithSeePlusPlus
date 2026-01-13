@@ -32,6 +32,9 @@ void deadlock() {
 	// we then have to handle the exception, return the lock, and again write unlock() if exception is not thrown
 	try {
 		count++;
+		// when an excpetion is thrown, the current state of the program is paused.
+		// if there is a try-catch-finally block, control moves to catch & then finally
+		// if there is no catch block, the current stack frame is removed and the exception is passed on to the previous stack frame to handle it. Stack frames are removed until one of them handles it or it moves to the top most frame (beyond main()), std::terminate() is called which calls std::abort() and the program is shut down
 		throw "dangerous";
 	}
 	catch (...) {
